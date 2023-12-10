@@ -55,7 +55,7 @@ header {
 
 .rectangle,
 .oval {
-  width: 120px;
+  width: 200px;
   height: 100px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -82,8 +82,8 @@ header {
 }
 
 .oval {
-  width: 300px;
-  height: 60px;
+  width: 400px;
+  height: 80px;
   background-color: #fff;
   border: 2px solid #333;
   border-radius: 50%;
@@ -101,7 +101,7 @@ section {
 }
 
 .box {
-  width: 120px;
+  width: 180px;
   height: 80px;
   text-align: center;
   line-height: 40px;
@@ -111,6 +111,7 @@ section {
   border-radius: 8px;
   position: relative;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .box p {
@@ -149,10 +150,10 @@ section {
 }
 
 .innovation-section .box {
-  width: 290px;
-  height: 50px;
+  width: 500px;
+  height: 70px;
   text-align: center;
-  line-height: 20px;
+  line-height: 30px;
   margin: 10px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -172,5 +173,5 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: left;
-  font-size: 12px;
+  font-size: 15px;
 }
