@@ -21,21 +21,20 @@ header {
 }
 
 @keyframes colorChange {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  100% {
-    background-position: 100% 50%;
-  }
+  25% {
+    color: 45deg;
+    }
+  50% {
+       color: #ff00a5;
+       }
+  75% {
+       color: #8e2de2;
+       }
 }
 
 .color-change {
-  background-image: linear-gradient(45deg, #ff00a5, #8e2de2);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: colorChange 5s infinite;
+  color: #fff;
+  animation: colorChange 3s infinite;
 }
 
 .subtitle {
